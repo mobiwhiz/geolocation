@@ -56,8 +56,7 @@
 	  }
 
       function handle_geolocation_query(position){
-		var image_url = "http://maps.google.com/maps/api/staticmap?sensor=false&center=" + position.coords.latitude + ',' + position.coords.longitude + 
-		                "&zoom=14&size=350x450&markers=color:blue|label:S|" + position.coords.latitude + ',' + position.coords.longitude;
+		var image_url = "http://maps.google.com/maps/api/staticmap?sensor=false&center=13.006977,80.250471&zoom=18&size=450x550&markers=color:blue|label:S|13.006977,80.250471;
 		
 		jQuery("#map").remove();
 		jQuery(document.body).append(
